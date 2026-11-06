@@ -1,0 +1,4 @@
+[services]
+  [[services.http]]
+  static_dir = "client/dist"
+  start = "npm run start:railway"
